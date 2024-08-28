@@ -1,0 +1,28 @@
+@media only screen and (max-width: 498px) {
+    .cuerpo{
+        font: normal 10px cursive;
+    }
+    .pie{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 57px;
+        gap: 6px;
+    }
+    
+    .division-de-pie-2{
+        font: oblique bold 10px cursive;
+    }
+
+    h4{
+        font-size: 10px;
+    }
+    .nav-container{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-2{
+        width: 48%;
+    }
+    
+}

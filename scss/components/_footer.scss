@@ -1,0 +1,10 @@
+.pie{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 400px;
+    gap: 20px;
+}
+
+.division-de-pie-2{
+    font: oblique bold 120% cursive;
+}
