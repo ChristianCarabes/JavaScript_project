@@ -54,6 +54,45 @@ img {
   align-items: center;
 }
 
+.nav-item-3 {
+  transform: translate(-50%, 50%);
+}
+.nav-item-3 input {
+  display: inline-block;
+  font: oblique 18px cursive;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.nav-item-3 h2 {
+  color: white;
+  font: oblique 18px cursive;
+}
+
+input[type=text] {
+  background: #fff;
+  width: 140px;
+  height: 25px;
+  border: none;
+  outline: none;
+  padding: 0;
+  border-radius: 15px 0 0 15px;
+}
+
+input[type=submit] {
+  border-radius: 0 15px 15px 0;
+  width: 80px;
+  height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #FF944D;
+  color: #fff;
+}
+
+input[type=submit]:hover {
+  background: #ff5722;
+}
+
 .pie {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -86,9 +125,9 @@ img {
   height: 65%;
 }
 
-@media only screen and (max-width: 498px) {
+@media only screen and (max-width: 992px) {
   .cuerpo {
-    font: normal 10px cursive;
+    font: normal 12px cursive;
   }
   .pie {
     display: grid;
@@ -100,7 +139,7 @@ img {
     font: oblique bold 10px cursive;
   }
   h4 {
-    font-size: 10px;
+    font-size: 12px;
   }
   .nav-container {
     height: 60px;
@@ -109,6 +148,63 @@ img {
   }
   .nav-2 {
     width: 48%;
+  }
+  .nav-item-3 input {
+    font: normal 12px cursive;
+  }
+  .nav-item-3 h2 {
+    font: normal 12px cursive;
+  }
+  .nav-item-3 input[type=text] {
+    border-radius: 5px 0 0 5px;
+    width: 75px;
+    height: 16px;
+  }
+  .nav-item-3 input[type=submit] {
+    border-radius: 0 5px 5px 0;
+    width: 50px;
+    height: 16px;
+  }
+}
+@media only screen and (max-width: 524px) {
+  .cuerpo {
+    font: normal 8px cursive;
+  }
+  .pie {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 57px;
+    gap: 6px;
+  }
+  .division-de-pie-2 {
+    font: oblique bold 10px cursive;
+  }
+  h4 {
+    font-size: 8px;
+  }
+  .nav-container {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-2 {
+    width: 48%;
+  }
+  .nav-item-3 input {
+    font: normal 8px cursive;
+  }
+  .nav-item-3 h2 {
+    font: normal 8px cursive;
+  }
+  .nav-item-3 input[type=text] {
+    border-radius: 5px 0 0 5px;
+    width: 55px;
+    height: 11px;
+  }
+  .nav-item-3 input[type=submit] {
+    border-radius: 0 5px 5px 0;
+    width: 30px;
+    height: 11px;
   }
 }
 
