@@ -1,4 +1,6 @@
-.pie{
+.footer{
+    margin: 70px;
+    padding: 20px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 400px;
@@ -7,4 +9,5 @@
 
 .division-de-pie-2{
     font: oblique bold 120% cursive;
+    margin-top: auto;
 }
