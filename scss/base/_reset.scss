@@ -6,6 +6,7 @@
     margin: 0;
     text-decoration: none;
     list-style-type: none;
+    box-sizing: border-box;
 }
 h1{
     color: #FF944D;
@@ -24,9 +25,4 @@ a:link{
 
 a:visited{
     color: #ffff;
-}
-
-img{
-    width: 35%;
-    height: 35%;
 }
