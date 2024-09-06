@@ -139,7 +139,7 @@ a:visited {
 .contenido {
   padding: 12px;
 }
-.contenido h2 {
+.contenido h3, .contenido h4 {
   font-size: 25px;
   margin-bottom: 10px;
 }
@@ -153,9 +153,25 @@ a:visited {
   height: 100%;
 }
 
-#naruto {
-  width: 65%;
-  height: 65%;
+.saved {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid silver;
+  margin-top: 110px;
+}
+
+.saved-2 {
+  display: flex;
+  justify-content: center;
+  border: 3px dotted;
+  padding: 80px;
+}
+
+.saved-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .form {
@@ -236,8 +252,9 @@ form .username {
 @media only screen and (max-width: 992px) {
   .cuerpo {
     font: normal 12px cursive;
+    background-color: rgba(5, 1, 94, 0.752);
   }
-  .pie {
+  .footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 57px;
@@ -273,19 +290,38 @@ form .username {
     width: 50px;
     height: 16px;
   }
+  .tarjeta {
+    width: 200px;
+    margin: 7px;
+  }
+  .tarjeta img {
+    margin-bottom: 6px;
+  }
+  .contenido {
+    padding: 8px;
+  }
+  .contenido h3, .contenido h4 {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  .contenido p {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
 }
 @media only screen and (max-width: 524px) {
   .cuerpo {
     font: normal 8px cursive;
+    background-color: rgba(5, 1, 94, 0.752);
   }
-  .pie {
+  .footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 57px;
-    gap: 6px;
+    grid-template-rows: 30px;
+    gap: 4px;
   }
   .division-de-pie-2 {
-    font: oblique bold 10px cursive;
+    font: oblique bold 8px cursive;
   }
   h4 {
     font-size: 8px;
@@ -313,6 +349,24 @@ form .username {
     border-radius: 0 5px 5px 0;
     width: 30px;
     height: 11px;
+  }
+  .tarjeta {
+    width: 150px;
+    margin: 5px;
+  }
+  .tarjeta img {
+    margin-bottom: 6px;
+  }
+  .contenido {
+    padding: 5px;
+  }
+  .contenido h3, .contenido h4 {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+  .contenido p {
+    font-size: 8px;
+    margin-bottom: 10px;
   }
 }
 

@@ -1,8 +1,9 @@
 @media only screen and (max-width: 992px) {
     .cuerpo{
         font: normal 12px cursive;
+        background-color: rgba(5, 1, 94, 0.752);
     }
-    .pie{
+    .footer{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 57px;
@@ -45,22 +46,46 @@
             height: 16px;
             }
         }
+    
+        .tarjeta {
+            width: 200px;
+            margin: 7px;
+            img {
+                margin-bottom: 6px;
+            }
+    
+        }   
+        
+        .contenido {
+            padding: 8px;
+            h3, h4 {
+                font-size: 15px;
+                margin-bottom: 6px;
+            }
+            p {
+                font-size: 10px;
+                margin-bottom: 15px;
+            }
+        }
     }
+
+    
 
 
 @media only screen and (max-width: 524px) {
     .cuerpo{
         font: normal 8px cursive;
+        background-color: rgba(5, 1, 94, 0.752);
     }
-    .pie{
+    .footer{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: 57px;
-        gap: 6px;
+        grid-template-rows: 30px;
+        gap: 4px;
     }
     
     .division-de-pie-2{
-        font: oblique bold 10px cursive;
+        font: oblique bold 8px cursive;
     }
 
     h4{
@@ -95,6 +120,29 @@
             height: 11px;
             }
         }
+
+        .tarjeta {
+            width: 150px;
+            margin: 5px;
+            img {
+                margin-bottom: 6px;
+            }
+    
+        }   
+        
+        .contenido {
+            padding: 5px;
+            h3, h4 {
+                font-size: 10px;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 8px;
+                margin-bottom: 10px;
+            }
+        }
     }
+    
+    
 
    

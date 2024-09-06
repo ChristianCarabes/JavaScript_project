@@ -15,7 +15,7 @@
         max-height: 200px;
         object-fit: cover;
         margin-bottom: 10px;
-    }
+    } 
     &:hover {
         transform: translateY(-15px);
         background-color: #525769;
@@ -24,7 +24,7 @@
 
 .contenido {
     padding: 12px;
-    h2 {
+    h3, h4 {
         font-size: 25px;
         margin-bottom: 10px;
     }
