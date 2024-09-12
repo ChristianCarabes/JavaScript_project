@@ -1,4 +1,4 @@
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1200px) {
     .cuerpo {
         font: normal 12px cursive;
         
@@ -6,7 +6,7 @@
 
     .footer {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 57px;
         gap: 6px;
     }
@@ -75,6 +75,78 @@
             margin-bottom: 15px;
         }
     }
+
+    a {
+        font-size: 12px;
+        button {
+            height: auto;
+            font-size: 12px;
+        }
+    }
+
+    .create-container {
+        margin-top: 60px;
+
+    }
+
+    .create {
+        max-width: 325px;
+        padding: 15px;
+        header {
+            font-size: 1rem;
+        }
+        .form {
+            margin-top: 20px;
+            .input-box {
+                margin-top: 15px;
+            }
+            :where(input, .select-box){
+                height: 35px;
+                font-size: 0.7rem;
+                margin-top: 6px;
+                padding: 0 10px;
+
+            }
+            .column {
+                display: flex;
+                column-gap: 10px;
+
+            }
+            :where(.gender-option, .gender) {
+                display: flex;
+                align-items: center;
+                column-gap: 35px;
+            }
+            .gender {
+                column-gap: 3px;
+            }
+
+            .gender-box {
+                margin-top: 20px;
+                h3 {
+                    font-size: 0.7rem;
+                    margin-bottom: 8px;
+                }
+            }
+
+            button {
+                height: 35px;
+                font-size: 0.7rem;
+                margin-top: 20px;
+            }
+
+        }
+
+        .select-box {
+            select {
+                font-size: 0.7rem;
+            }
+        }
+        .address :where(input, .select-box) {
+            margin-top: 15px;
+        }
+    }
+
 }
 
 
@@ -86,8 +158,10 @@
     }
 
     .footer {
+        margin: 10px;
+        padding: 10px;
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 30px;
         gap: 4px;
     }
@@ -154,6 +228,14 @@
         p {
             font-size: 8px;
             margin-bottom: 10px;
+        }
+    }
+
+    a {
+        font-size: 8px;
+        button {
+            height: auto;
+            font-size: 8px;
         }
     }
 }

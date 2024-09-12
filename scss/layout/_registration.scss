@@ -1,0 +1,110 @@
+.create-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 80px;
+  }
+
+.create {
+    max-width: 700px;
+    width: 100%;
+    background: #23252B;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #fff;
+    
+    header {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .form-2 {
+        margin-top: 30px;
+        .input-box {
+            width: 100%;
+            margin-top: 20px;
+            label {
+                color: silver;
+            }
+            :where(input, .select-box){
+                position: relative;
+                height: 50px;
+                width: 100%;
+                outline: none;
+                font-size: 1rem;
+                margin-top: 8px;
+                border: 1px solid #ddd;
+                border-radius: 6px;
+                padding: 0 15px;
+            }
+        }
+        .column {
+            display: flex;
+            column-gap: 15px;
+        }
+
+        :where(.gender-option, .gender) {
+            display: flex;
+            align-items: center;
+            column-gap: 50px;
+            flex-wrap:wrap ;
+        }
+
+        .gender {
+            column-gap: 5px;
+        }
+
+        :where(.gender input, .gender label) {
+            cursor: pointer;
+        }
+
+        .gender-box {
+            margin-top: 20px;
+            h3 {
+                font-size: 1rem;
+                font-weight: 400;
+                margin-bottom: 8px;
+
+            }
+        }
+
+        button{
+            height: 55px;
+            width: 100%;
+            font-size: 1rem;
+            margin-top: 30px;
+            border: none;
+            border-radius: 6px;
+            outline: none;
+            cursor: pointer;
+            background: #FF944D;
+            transition: all 0.5s ease;
+            color: #fff;
+            &:hover {
+                background: #ff5722;
+            }
+    
+        }
+    
+    }
+    .select-box {
+        select{
+            height: 100%;
+            width: 100%;
+            outline: none;
+            border: none;
+            font-size: 1rem;
+        }
+    }
+
+    .address :where(input, .select-box) {
+        margin-top: 15px;
+
+    }
+}
+
+
+
+
+

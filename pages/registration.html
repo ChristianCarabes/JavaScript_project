@@ -3,9 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>registration page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body class="cuerpo reg">
+    <!--Header-->
+    <header class="nav-container">
+        <nav class="nav-1">
+            <!-- Bootstrap-->
+
+            <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle cuerpo" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" data-bs-theme="dark">
+                    Menu
+                </button>
+                <ul class="dropdown-menu" data-bs-theme="dark">
+                    <li>Browse</li>
+                    <li>Popular</li>
+                    <li>New</li>
+                    <li>Simulcast Season</li>
+                    <li>Genres</li>
+                    <li>News</li>
+                    <li>Games</li>
+                    <li>Anime Awards</li>
+                    <li>Store</li>
+                </ul>
+            </div>
+            <!-- Bootstrap-->
+            <a href="../index.html">
+                <h1 class="title">Crunchyroll</h1>
+            </a>
+
+        </nav>
+        <ul class="nav-2">
+            <li class="nav-item-3">
+                <h2>Search</h2>
+                <form>
+                    <input type="text" name="" placeholder="Type...">
+                    <input type="submit" name="" value="Search">
+
+                </form>
+            </li>
+            <li class="nav-item-2"><a href="saved.html">Saved</a></li>
+            <li class="nav-item-1"><a href="sign.html">Sign in</a></li>
+        </ul>
+
+
+    </header>
+    <div class="create-container">
+        <section class="create">
+            <header>Create an account</header>
+            <form action="#" class="form-2">
+                <div class="input-box">
+                    <label>Fullname</label>
+                    <input type="text" placeholder="Enter a Fullname" required>
+                </div>
+        
+                <div class="input-box">
+                    <label>Email address</label>
+                    <input type="text" placeholder="Enter an email address" required>
+                </div>
     
+                <div class="column">
+                    <div class="input-box">
+                        <label>Phone number</label>
+                        <input type="number" placeholder="Enter a phone number" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label>Birthday</label>
+                        <input type="date" placeholder="Enter your birth date" required>
+                    </div>
+                </div>
+    
+                <div class="gender-box">
+                    <h3>Gender</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+                            <input type="radio" id="check-male" name="gender" checked>
+                            <label for="check-male">Male</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" id="check-female" name="gender">
+                            <label for="check-female">Female</label>
+                        </div>
+                        <div class="gender">
+                            <input type="radio" id="check-other" name="gender">
+                            <label for="check-other">Prefer not to say</label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="input-box address" >
+                    <label>Address</label>
+                    <input type="text" placeholder="Enter street address" required>
+                    <input type="text" placeholder="Enter street address line 2" required>
+                    <div class="column">
+                        <div class="select-box">
+                            <select>
+                                <option hidden>Country</option>
+                                <option>United States of America</option>
+                                <option>Mexico</option>
+                                <option>Canada</option>
+                                <option>Argentine</option>
+                                <option>Chile</option>
+                                <option>Brazil</option>
+                                <option>China</option>
+                                <option>Japan</option>
+                                <option>Nepal</option>
+                                <option>Afganistan</option>
+                            </select>
+                        </div>
+                        <input type="text" placeholder="Enter street address your city" required>
+                    </div>
+    
+                    <div class="column">
+                        <input type="text" placeholder="Enter street your region" required>
+                        <input type="number" placeholder="Enter street postal code" required>
+                    </div>
+                </div>
+    
+                <button>Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="division-de-pie"></div>
+        <div class="division-de-pie">
+            <div class="division-de-pie-2">Browse</div>
+            <ul>
+                <li>Browse popular</li>
+                <li>Explore simulcast</li>
+                <li>Realease Schedule</li>
+                <li>News</li>
+                <li>Gaming</li>
+            </ul>
+        </div>
+
+        <div class="division-de-pie">
+            <div class="division-de-pie-2">Contact</div>
+            <ul>
+                <li>Youtube</li>
+                <li>Facebook</li>
+                <li>X</li>
+                <li>Instagram</li>
+                <li>TikTok</li>
+            </ul>
+        </div>
+
+        <div class="division-de-pie">
+            <div class="division-de-pie-2">Crunchyroll</div>
+            <ul>
+                <li>Start your free trial</li>
+                <li>About</li>
+                <li>Help center</li>
+                <li>Terms of use</li>
+                <li>Privacy policy</li>
+                <li>Cookie´s agreenment tool</li>
+                <li>Press´s contact</li>
+                <li>Get our apps</li>
+            </ul>
+        </div>
+        <div class="division-de-pie">
+            <div class="division-de-pie-2">Account</div>
+            <ul>
+                <li>Sign in</li>
+                <li>Create an account</li>
+            </ul>
+        </div>
+
+
+    </footer>
+    <!--Footer fin-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 </html>
